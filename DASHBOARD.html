@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/sono" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DASHBOARDstyle.css">
+    <title>DASHBOARD-GCONNECT</title>
+    <script src="js/chart.js"></script>
+    <script src="js/canvasjs.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="logo-gconnect">
+            <a href="DASHBOARD.html">
+                <input class="gconnect-button" type="image" src="imgs/LOGO PNG.png">
+                <!-- <img src="imgs/LOGO PNG.png" style="height:68px; padding-right:0px; padding-left: 1px; padding-top: 0px; padding-bottom: 0px; margin: 0px;"> -->
+            </a>
+        </div>
+        <a href="DASHBOARD.html">
+            <div id="title-gconnect">
+                <h1 id="title-1">G-connect</h1>
+                <h2 id="title-2">Early Warning System</h2>
+            </div>
+        </a>
+        <!-- <h3 id="judul-gconnect">G-Connect</h3> -->
+        <input class="search" type="text" placeholder="Cari..." required style="font-size: 16px; font-family: 'Poppins">
+        <input class="search-button" type="button" value="Cari">
+    </header>
+
+    <div class="pilih-hari">
+        <form action="/action_page.php">
+            <input type="date" name="kotak-pilih-hari" style="width:110px; border-radius: 5%;">
+            <!-- <input value="Pilih" type="submit" style="margin:0px; height:20px;"> -->
+        </form>
+
+        <!-- <select required class='pilih-hari-box'>
+                <option value='X' disabled selected hidden>dd/mm/yyyy</option>
+                <option value='A'>13/11/2022</option>
+                <option value='B'>12/11/2022</option>
+                <option value='C'>11//11/2022</option>
+                <option value='D'>10/11/2022</option>
+              </select> -->
+    </div>
+
+    <div id="chartContainer"></div>
+    <!-- <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script> -->
+
+    <div class="menu-container">
+            <div class="grafik-menu">
+                <a href="DASHBOARD.html">
+                    <input class="grafik-button" type="image" src="imgs/chart-icon.png">
+                    <span class="tulisan-grafik">Grafik</span>
+                </a>
+            </div>
+            <div class="darbord-menu">
+                <a href="REALTIME.html">
+                    <input class="dasbord-button" type="image" src="imgs/ikon-dasbor.png">
+                    <span class="tulisan-dasbord">Realtime</span>
+                </a>    
+            </div>
+            <div class="notifikasi-menu">
+                <a href="#">
+                    <input class="notifikasi-button" type="image" src="imgs/ikon-notifikasi.png" >
+                    <span class="tulisan-notifikasi">Notifikasi</span>
+                </a>
+            </div>
+            <div class="lokasi-menu">
+                <a href="#">
+                    <input class="lokasi-button" type="image" src="imgs/ikon-lokasi.png">
+                    <span class="tulisan-lokasi">Lokasi</span>
+                </a>
+            </div>
+            <div class="akun-menu">
+                <a href="#">
+                    <input class="akun-button" type="image" src="imgs/ikon-akun.png">
+                    <span class="tulisan-akun">Account</span>
+                </a>
+            </div>
+    </div>
+
+
+
+    <footer>
+        <img class="logo-footer" src="imgs/LOGO LANDSCAPE 2.png">
+    </footer>
+</body>
+
+</html>
+<!-- test commit -->
