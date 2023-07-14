@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nixie One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400&display=swap"
+    />
+
+    <style>
+      @font-face {
+        :font-family: "Codec Pro";
+        src: url("CodecPro-Regular.ttf");
+        font-weight: 400;
+      }
+      @font-face {
+        :font-family: "TOMMY HILFIGER AF";
+        src: url("TOMMY___.TTF");
+        font-weight: 400;
+      }
+      @font-face {
+        :font-family: "Creative Thoughts";
+        src: url("CreativeThoughts-Regular.otf");
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="full-portofolio">
+      <img
+        class="bg-1-icon"
+        alt=""
+        src="./public/bg1@2x.png"
+        data-scroll-to="bg1Image"
+      />
+
+      <div class="bg-2">
+        <img
+          class="bg-2-picture-icon"
+          alt=""
+          src="./public/bg2picture@2x.png"
+        />
+
+        <div class="bg-2-color"></div>
+      </div>
+      <img class="bg-3-icon" alt="" src="./public/bg3@2x.png" />
+
+      <div class="footer">
+        <button class="back-button" id="backButton">Back to Top</button>
+        <div class="frame">
+          <div class="footer-line"></div>
+          <div class="footer-text">
+            © Copyright 2023, Made by Angga Rustico️
+          </div>
+        </div>
+      </div>
+      <div
+        class="contacts-section"
+        data-scroll-to="contactsSectionContainer"
+        data-animate-on-scroll
+      >
+        <div class="contacts-title">
+          <div class="more-of-me">More of Me</div>
+          <img
+            class="contacts-title-child"
+            alt=""
+            src="./public/vector-5.svg"
+          />
+        </div>
+        <div class="contacts-content">
+          <div class="contacts-row-1">
+            <div class="linkedin-box">
+              <div class="linkedin-bg"></div>
+              <img
+                class="linkedin-logo-icon"
+                alt=""
+                src="./public/linkedinlogo@2x.png"
+              />
+
+              <button class="linkedin" id="linkedin">
+                <div class="linkedin-child"></div>
+                <img
+                  class="linkedin-logo-icon"
+                  alt=""
+                  src="./public/frame-9@2x.png"
+                />
+
+                <div class="linkedin1">LinkedIn</div>
+                <div class="linkedincominanggarustico">
+                  linkedin.com/in/anggarustico
+                </div>
+              </button>
+            </div>
+            <div class="email-box">
+              <div class="email-bg"></div>
+              <img
+                class="email-logo-icon"
+                alt=""
+                src="./public/emaillogo@2x.png"
+              />
+
+              <button class="email" id="email">
+                <div class="email-child"></div>
+                <div class="email1">Email</div>
+                <div class="anggarusticogmailcom">anggarustico@gmail.com</div>
+                <img class="email-item" alt="" src="./public/frame-7.svg" />
+              </button>
+            </div>
+          </div>
+          <div class="contacts-row-2">
+            <div class="github-box">
+              <div class="linkedin-bg"></div>
+              <img
+                class="linkedin-logo-icon"
+                alt=""
+                src="./public/githublogo@2x.png"
+              />
+
+              <button class="email" id="github">
+                <div class="linkedin-child"></div>
+                <img
+                  class="mask-group-icon"
+                  alt=""
+                  src="./public/mask-group@2x.png"
+                />
+
+                <div class="githubcomanggarustico">github.com/anggarustico</div>
+                <div class="github1">Github</div>
+              </button>
+            </div>
+            <div class="spotify-box">
+              <div class="email-bg"></div>
+              <img
+                class="spotify-logo-icon"
+                alt=""
+                src="./public/spotifylogo@2x.png"
+              />
+
+              <button class="linkedin" id="spotify">
+                <div class="email-child"></div>
+                <div class="spotify1">Spotify</div>
+                <div class="anggarusticogmailcom1">Suara Anak Muda Podcast</div>
+                <img
+                  class="mask-group-icon1"
+                  alt=""
+                  src="./public/mask-group1@2x.png"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="contacts-row-3">
+            <div class="instagram-box">
+              <div class="email-bg"></div>
+              <img
+                class="instagram-logo-icon"
+                alt=""
+                src="./public/instagramlogo@2x.png"
+              />
+
+              <button class="instagram" id="instagram">
+                <div class="email-child"></div>
+                <div class="instagram1">Instagram</div>
+                <div class="instagramcomnggrstco">instagram.com/nggrstco</div>
+                <img
+                  class="instagram-item"
+                  alt=""
+                  src="./public/frame-8@2x.png"
+                />
+              </button>
+            </div>
+            <div class="thanks-box">
+              <div class="linkedin-bg"></div>
+              <div class="thanks-text">
+                <div class="thank">THANK</div>
+                <div class="you">you</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sam-section" data-animate-on-scroll>
+        <img class="sam-picture-icon" alt="" src="./public/sampicture@2x.png" />
+
+        <div class="sam-text">
+          <span class="sam-text-txt">
+            <p class="creative-programmer-and">
+              Creative Programmer and Leader with Focus on Web Development, IoT,
+              Cybersecurity, and Building a Tech Start-Up.
+            </p>
+            <p class="creative-programmer-and">
+              A 4th Semester Electronics and Instrumentation, Universitas Gadjah
+              Mada, Indonesia Student with a GPA of 3.81. A lot of Programming
+              experience in HTML, CSS, Javascript, and C++ in Gamaforce and
+              Elins Research Club.
+            </p>
+            <p class="gain-leadership-skills">
+              Gain Leadership skills with experience as President of HMEI UGM,
+              Vice President of Elins Planet 2022, and events like Porsenigama
+              2022. Also, write songs and do music production.
+            </p>
+          </span>
+        </div>
+        <div class="sam-title">
+          <div class="sam-title-text">Suara Anak Muda</div>
+          <img class="line-title-icon" alt="" src="./public/linetitle.svg" />
+        </div>
+      </div>
+      <div
+        class="certif-section"
+        data-scroll-to="certifSectionContainer"
+        data-animate-on-scroll
+      >
+        <div class="certif-title">
+          <div class="certif-title1">Certificates</div>
+          <img class="line-title-icon" alt="" src="./public/linetitle1.svg" />
+        </div>
+        <div class="certif-content">
+          <div class="certif-1">
+            <img
+              class="certif-1-bg-text-icon"
+              alt=""
+              src="./public/certif1bgtext.svg"
+            />
+
+            <div class="frame1">
+              <div class="certif-1-text">
+                <div class="certif-1-title">
+                  <span class="sam-text-txt">
+                    <p class="gamaforce-membership">GAMAFORCE MEMBERSHIP</p>
+                    <p class="certificate">CERTIFICATE</p>
+                  </span>
+                </div>
+                <div class="certif-1-desc">
+                  Has contributed to Gamaforce for one year in conducting
+                  research on UAVs and represented UGM in participating in the
+                  2023 Indonesian Flying Robot Contest
+                </div>
+              </div>
+              <div class="certif-1-bg"></div>
+              <img
+                class="certif-1-picture-icon"
+                alt=""
+                src="./public/certif1picture@2x.png"
+              />
+            </div>
+          </div>
+          <div class="certif-2">
+            <div class="certif-2-bg"></div>
+            <div class="certif-2-bg-text"></div>
+            <div class="certif-2-picture">
+              <img
+                class="certif-2-file-icon"
+                alt=""
+                src="./public/certif2file@2x.png"
+              />
+
+              <div class="certif-2-frame"></div>
+            </div>
+            <div class="certif-2-text">
+              <div class="certif-1-title">
+                <span class="sam-text-txt">
+                  <p class="gamaforce-membership">President of HMEI 2023</p>
+                  <p class="certificate">CERTIFICATE</p>
+                </span>
+              </div>
+            </div>
+            <div class="frame2">
+              <div class="certif-2-desc">
+                Has contributed to Gamaforce for one year in conducting research
+                on UAVs and represented UGM in participating in the 2023
+                Indonesian Flying Robot Contest
+              </div>
+            </div>
+          </div>
+          <div class="certif-3">
+            <div class="certif-3-bg-text"></div>
+            <div class="frame1">
+              <div class="certif-1-text">
+                <div class="certif-1-title">
+                  <span class="sam-text-txt">
+                    <p class="gamaforce-membership">Gemastik XV 2022</p>
+                    <p class="certificate">CERTIFICATE</p>
+                  </span>
+                </div>
+                <div class="certif-1-desc">
+                  Has contributed to Gamaforce for one year in conducting
+                  research on UAVs and represented UGM in participating in the
+                  2023 Indonesian Flying Robot Contest
+                </div>
+              </div>
+              <div class="certif-3-bg"></div>
+              <div class="certif-3-picture">
+                <div class="certif-3-frame"></div>
+              </div>
+            </div>
+          </div>
+          <div class="certif-4">
+            <div class="certif-4-bg"></div>
+            <div class="certif-2-bg-text"></div>
+            <div class="certif-2-picture">
+              <img
+                class="certif-2-file-icon"
+                alt=""
+                src="./public/certif4file@2x.png"
+              />
+
+              <div class="certif-2-frame"></div>
+            </div>
+            <div class="certif-4-text">
+              <div class="certif-1-title">
+                <span class="sam-text-txt">
+                  <p class="gamaforce-membership">Joints Business Plan 2023</p>
+                  <p class="certificate">CERTIFICATE</p>
+                </span>
+              </div>
+              <div class="certif-1-desc">
+                Has contributed to Gamaforce for one year in conducting research
+                on UAVs and represented UGM in participating in the 2023
+                Indonesian Flying Robot Contest
+              </div>
+            </div>
+          </div>
+          <div class="certif-5">
+            <div class="certif-3-bg-text"></div>
+            <div class="frame4">
+              <div class="certif-1-text">
+                <div class="certif-1-title">
+                  <span class="sam-text-txt">
+                    <p class="gamaforce-membership">Porsenigama 2022</p>
+                    <p class="certificate">CERTIFICATE</p>
+                  </span>
+                </div>
+                <div class="certif-1-desc">
+                  Has contributed to Gamaforce for one year in conducting
+                  research on UAVs and represented UGM in participating in the
+                  2023 Indonesian Flying Robot Contest
+                </div>
+              </div>
+              <div class="certif-5-bg"></div>
+              <div class="certif-5-picture">
+                <img
+                  class="certif-5-file-icon"
+                  alt=""
+                  src="./public/certif5file@2x.png"
+                />
+
+                <div class="certif-5-frame"></div>
+              </div>
+            </div>
+          </div>
+          <div class="certif-6">
+            <div class="certif-6-bg"></div>
+            <div class="certif-2-bg-text"></div>
+            <div class="certif-6-picture">
+              <div class="certif-6-frame"></div>
+            </div>
+            <div class="certif-4-text">
+              <div class="certif-1-title">
+                <span class="sam-text-txt">
+                  <p class="gamaforce-membership">GMCO Live 2022 Player</p>
+                  <p class="certificate">CERTIFICATE</p>
+                </span>
+              </div>
+              <div class="certif-1-desc">
+                Has contributed to Gamaforce for one year in conducting research
+                on UAVs and represented UGM in participating in the 2023
+                Indonesian Flying Robot Contest
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="exp-section"
+        data-scroll-to="expSectionContainer"
+        data-animate-on-scroll
+      >
+        <div class="exp-title">
+          <div class="exp-title1">Experiences</div>
+          <img class="line-title-icon" alt="" src="./public/linetitle2.svg" />
+        </div>
+        <div class="exp-content">
+          <button class="exp-1-section" id="exp1Section">
+            <div class="exp-1-text">
+              <div class="exp-1-title">President</div>
+              <div class="exp-1-title1">
+                Himpunan Mahasiswa Elektronika dan Instrumentasi 2023
+              </div>
+            </div>
+          </button>
+          <button class="exp-2-section" id="exp2Section">
+            <div class="exp-2-text">
+              <div class="exp-2-title">Hardware Programmer</div>
+              <div class="exp-2-title1">
+                Gadjah Mada Flying Object Research Center 2022-2023
+              </div>
+            </div>
+          </button>
+          <div class="frame5">
+            <button class="exp-3-section" id="exp3Section">
+              <div class="exp-1-text">
+                <div class="exp-1-title">Head of Web Development</div>
+                <div class="exp-1-title1">G-Connect Project Indonesia 2023</div>
+              </div>
+            </button>
+          </div>
+          <button class="exp-4-section" id="exp4Section">
+            <div class="exp-4-text">
+              <div class="exp-4-title">Web Developer</div>
+              <div class="exp-4-title1">
+                Linux dan Jaringan Division, Elins Research Club 2022-2023
+              </div>
+            </div>
+          </button>
+          <button class="exp-5-section" id="exp5Section">
+            <div class="exp-5-text">
+              <div class="exp-5-title">Acoustic Guitar Player</div>
+              <div class="exp-5-title1">
+                Gadjah Mada Chamber Orchestra 2022-2023
+              </div>
+            </div>
+          </button>
+          <button class="exp-6-section" id="exp6Section">
+            <div class="exp-6-text">
+              <div class="exp-6-title">Art Division Staff</div>
+              <div class="exp-6-title1">
+                Pekan Olahraga dan Seni Universitas Gadjah Mada 2022
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        class="about-section"
+        data-scroll-to="aboutSectionContainer"
+        data-animate-on-scroll
+      >
+        <div class="about-title">
+          <div class="about-title1">About</div>
+          <img class="line-title-icon3" alt="" src="./public/linetitle3.svg" />
+        </div>
+        <div class="row-about">
+          <div class="about-desc">
+            <span class="sam-text-txt">
+              <p class="creative-programmer-and">
+                Creative Programmer and Leader with Focus on Web Development,
+                IoT, Cybersecurity, and Building a Tech Start-Up.
+              </p>
+              <p class="creative-programmer-and">
+                A 4th Semester Electronics and Instrumentation, Universitas
+                Gadjah Mada, Indonesia Student with a GPA of 3.81. A lot of
+                Programming experience in HTML, CSS, Javascript, and C++ in
+                Gamaforce and Elins Research Club.
+              </p>
+              <p class="gain-leadership-skills">
+                Gain Leadership skills with experience as President of HMEI UGM,
+                Vice President of Elins Planet 2022, and events like Porsenigama
+                2022. Also, write songs and do music production.
+              </p>
+            </span>
+          </div>
+          <img
+            class="about-picture-icon"
+            alt=""
+            src="./public/aboutpicture@2x.png"
+          />
+        </div>
+      </div>
+      <div class="intro-section" data-animate-on-scroll>
+        <div class="slogan">
+          <p class="gain-leadership-skills">“don’t</p>
+          <p class="gain-leadership-skills">over</p>
+          <p class="gain-leadership-skills">think”</p>
+        </div>
+        <div class="jobs">
+          <p class="gain-leadership-skills">Full-Stack Developer</p>
+          <p class="gain-leadership-skills">Hardware Programmer</p>
+        </div>
+        <div class="title-name">
+          <img class="line-title-icon4" alt="" src="./public/linetitle4.svg" />
+
+          <div class="title-name1">Angga Rustico</div>
+        </div>
+        <div class="header">
+          <button class="about" id="about">About</button>
+          <button class="experiences" id="experiences">Experiences</button>
+          <button class="certificates" id="certificates">Certificates</button>
+          <button class="contacts" id="contacts">Contacts</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="popup3" class="popup-overlay" style="display: none">
+      <div class="popup-3">
+        <div class="popup-3-bg">
+          <img
+            class="popup-3-bg-file-icon"
+            alt=""
+            src="./public/popup3bgfile@2x.png"
+          />
+
+          <div class="popup-3-bg-color"></div>
+        </div>
+        <div class="popup-3-content">
+          <div class="popup-3-desc">
+            <span class="popup-3-desc-txt">
+              <p class="creative-programmer-and3">
+                Creative Programmer and Leader with Focus on Web Development,
+                IoT, Cybersecurity, and Building a Tech Start-Up.
+              </p>
+              <p class="creative-programmer-and3">
+                A 4th Semester Electronics and Instrumentation, Universitas
+                Gadjah Mada, Indonesia Student with a GPA of 3.81. A lot of
+                Programming experience in HTML, CSS, Javascript, and C++ in
+                Gamaforce and Elins Research Club.
+              </p>
+              <p class="gain-leadership-skills3">
+                Gain Leadership skills with experience as President of HMEI UGM,
+                Vice President of Elins Planet 2022, and events like Porsenigama
+                2022. Also, write songs and do music production.
+              </p>
+            </span>
+          </div>
+          <img
+            class="popup-3-picture-icon"
+            alt=""
+            src="./public/popup3picture@2x.png"
+          />
+        </div>
+        <div class="popup-3-text">
+          <div class="popup-3-sub">
+            Himpunan Mahasiswa Elektronika dan Instrumentasi 2023
+          </div>
+          <div class="popup-3-title">Head of Web Development</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="popup2" class="popup-overlay" style="display: none">
+      <div class="popup-2">
+        <div class="popup-2-bg">
+          <img
+            class="popup-2-bg-file-icon"
+            alt=""
+            src="./public/popup2bgfile@2x.png"
+          />
+
+          <div class="popup-2-bg-color"></div>
+        </div>
+        <div class="popup-2-content">
+          <div class="popup-2-desc">
+            <span class="popup-2-desc-txt">
+              <p class="creative-programmer-and2">
+                Creative Programmer and Leader with Focus on Web Development,
+                IoT, Cybersecurity, and Building a Tech Start-Up.
+              </p>
+              <p class="creative-programmer-and2">
+                A 4th Semester Electronics and Instrumentation, Universitas
+                Gadjah Mada, Indonesia Student with a GPA of 3.81. A lot of
+                Programming experience in HTML, CSS, Javascript, and C++ in
+                Gamaforce and Elins Research Club.
+              </p>
+              <p class="gain-leadership-skills2">
+                Gain Leadership skills with experience as President of HMEI UGM,
+                Vice President of Elins Planet 2022, and events like Porsenigama
+                2022. Also, write songs and do music production.
+              </p>
+            </span>
+          </div>
+          <img
+            class="popuop-2-picture-icon"
+            alt=""
+            src="./public/popuop2picture@2x.png"
+          />
+        </div>
+        <div class="popup-2-text">
+          <div class="popup-2-sub">
+            Gadjah Mada Flying Object Research Center 2022-2023
+          </div>
+          <div class="popup-2-title">Hardware Programmer</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="popup4" class="popup-overlay" style="display: none">
+      <div class="popup-4">
+        <div class="popup-4-bg">
+          <img
+            class="popup-4-bg-file-icon"
+            alt=""
+            src="./public/popup2bgfile@2x.png"
+          />
+
+          <div class="popup-4-bg-color"></div>
+        </div>
+        <div class="popup-4-content">
+          <div class="popup-4-desc">
+            <span class="popup-4-desc-txt">
+              <p class="creative-programmer-and4">
+                Creative Programmer and Leader with Focus on Web Development,
+                IoT, Cybersecurity, and Building a Tech Start-Up.
+              </p>
+              <p class="creative-programmer-and4">
+                A 4th Semester Electronics and Instrumentation, Universitas
+                Gadjah Mada, Indonesia Student with a GPA of 3.81. A lot of
+                Programming experience in HTML, CSS, Javascript, and C++ in
+                Gamaforce and Elins Research Club.
+              </p>
+              <p class="gain-leadership-skills4">
+                Gain Leadership skills with experience as President of HMEI UGM,
+                Vice President of Elins Planet 2022, and events like Porsenigama
+                2022. Also, write songs and do music production.
+              </p>
+            </span>
+          </div>
+          <img
+            class="popuop-4-picture-icon"
+            alt=""
+            src="./public/popuop2picture@2x.png"
+          />
+        </div>
+        <div class="popup-4-text">
+          <div class="popup-4-sub">
+            Gadjah Mada Flying Object Research Center 2022-2023
+          </div>
+          <div class="popup-4-title">Web Developer</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="popup5" class="popup-overlay" style="display: none">
+      <div class="popup-5">
+        <div class="popup-5-bg">
+          <img
+            class="popup-5-bg-file-icon"
+            alt=""
+            src="./public/popup3bgfile@2x.png"
+          />
+
+          <div class="popup-5-bg-color"></div>
+        </div>
+        <div class="popup-5-content">
+          <div class="popup-5-desc">
+            <span class="popup-5-desc-txt">
+              <p class="creative-programmer-and5">
+                Creative Programmer and Leader with Focus on Web Development,
+                IoT, Cybersecurity, and Building a Tech Start-Up.
+              </p>
+              <p class="creative-programmer-and5">
+                A 4th Semester Electronics and Instrumentation, Universitas
+                Gadjah Mada, Indonesia Student with a GPA of 3.81. A lot of
+                Programming experience in HTML, CSS, Javascript, and C++ in
+                Gamaforce and Elins Research Club.
+              </p>
+              <p class="gain-leadership-skills5">
+                Gain Leadership skills with experience as President of HMEI UGM,
+                Vice President of Elins Planet 2022, and events like Porsenigama
+                2022. Also, write songs and do music production.
+              </p>
+            </span>
+          </div>
+          <img
+            class="popup-5-picture-icon"
+            alt=""
+            src="./public/popup3picture@2x.png"
+          />
+        </div>
+        <div class="popup-5-text">
+          <div class="popup-5-sub">
+            Himpunan Mahasiswa Elektronika dan Instrumentasi 2023
+          </div>
+          <div class="popup-5-title">Acoustic Guitar Player</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="popup6" class="popup-overlay" style="display: none">
+      <div class="popup-6">
+        <div class="popup-6-bg">
+          <img
+            class="popup-6-bg-file-icon"
+            alt=""
+            src="./public/popup2bgfile@2x.png"
+          />
+
+          <div class="popup-6-bg-color"></div>
+        </div>
+        <div class="popup-6-content">
+          <div class="popup-6-desc">
+            <span class="popup-6-desc-txt">
+              <p class="creative-programmer-and6">
+                Creative Programmer and Leader with Focus on Web Development,
+                IoT, Cybersecurity, and Building a Tech Start-Up.
+              </p>
+              <p class="creative-programmer-and6">
+                A 4th Semester Electronics and Instrumentation, Universitas
+                Gadjah Mada, Indonesia Student with a GPA of 3.81. A lot of
+                Programming experience in HTML, CSS, Javascript, and C++ in
+                Gamaforce and Elins Research Club.
+              </p>
+              <p class="gain-leadership-skills6">
+                Gain Leadership skills with experience as President of HMEI UGM,
+                Vice President of Elins Planet 2022, and events like Porsenigama
+                2022. Also, write songs and do music production.
+              </p>
+            </span>
+          </div>
+          <img
+            class="popuop-6-picture-icon"
+            alt=""
+            src="./public/popuop2picture@2x.png"
+          />
+        </div>
+        <div class="popup-6-text">
+          <div class="popup-6-sub">
+            Gadjah Mada Flying Object Research Center 2022-2023
+          </div>
+          <div class="popup-6-title">Art Division Staff</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var backButton = document.getElementById("backButton");
+      if (backButton) {
+        backButton.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='bg1Image']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var linkedin = document.getElementById("linkedin");
+      if (linkedin) {
+        linkedin.addEventListener("click", function () {
+          window.open("https:/linkedin.com/in/anggarustico");
+        });
+      }
+      
+      const email = document.getElementById("email");
+      if (email) {
+        email.addEventListener("click", function () {
+          window.location.href = "mailto:anggarustico@gmail.com";
+        });
+      }
+      
+      var github = document.getElementById("github");
+      if (github) {
+        github.addEventListener("click", function () {
+          window.open("https:/github.com/anggarustico");
+        });
+      }
+      
+      var spotify = document.getElementById("spotify");
+      if (spotify) {
+        spotify.addEventListener("click", function () {
+          window.open(
+            "https:/https://open.spotify.com/show/5Z9aJzSCbrAqfuUU6ThS5D?si=e0bdb776ae0d47db"
+          );
+        });
+      }
+      
+      var instagram = document.getElementById("instagram");
+      if (instagram) {
+        instagram.addEventListener("click", function () {
+          window.open("https:/instagram.com/nggrstco");
+        });
+      }
+      
+      var exp1Section = document.getElementById("exp1Section");
+      if (exp1Section) {
+        exp1Section.addEventListener("click", function () {
+          var popup = document.getElementById("popup3");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      
+      var exp2Section = document.getElementById("exp2Section");
+      if (exp2Section) {
+        exp2Section.addEventListener("click", function () {
+          var popup = document.getElementById("popup2");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      
+      var exp3Section = document.getElementById("exp3Section");
+      if (exp3Section) {
+        exp3Section.addEventListener("click", function () {
+          var popup = document.getElementById("popup3");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      
+      var exp4Section = document.getElementById("exp4Section");
+      if (exp4Section) {
+        exp4Section.addEventListener("click", function () {
+          var popup = document.getElementById("popup4");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      
+      var exp5Section = document.getElementById("exp5Section");
+      if (exp5Section) {
+        exp5Section.addEventListener("click", function () {
+          var popup = document.getElementById("popup5");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      
+      var exp6Section = document.getElementById("exp6Section");
+      if (exp6Section) {
+        exp6Section.addEventListener("click", function () {
+          var popup = document.getElementById("popup6");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      
+      var about = document.getElementById("about");
+      if (about) {
+        about.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='aboutSectionContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var experiences = document.getElementById("experiences");
+      if (experiences) {
+        experiences.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='expSectionContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var certificates = document.getElementById("certificates");
+      if (certificates) {
+        certificates.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='certifSectionContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var contacts = document.getElementById("contacts");
+      if (contacts) {
+        contacts.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='contactsSectionContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>
