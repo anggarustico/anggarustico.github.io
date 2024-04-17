@@ -1,4 +1,4 @@
-@media (min-width: 1560px){ 
+@media (max-width: 1560px){ 
   @keyframes fade-in {
     0% {
       opacity: 0;
