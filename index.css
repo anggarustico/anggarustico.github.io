@@ -1485,7 +1485,7 @@
   .full-portofolio {
     position: relative;
     background-color: var(--color-white);
-    width: 100%;
+    width: 100vh;
     height: 7107px;
     overflow: hidden;
     text-align: center;
@@ -1493,7 +1493,7 @@
     color: var(--color-white);
     font-family: var(--font-creative-thoughts);
   }
-  @media screen and (max-width: 36px) {
+  @media screen and (max-width: 1200px) {
     .full-portofolio {
       display: flex;
     }
