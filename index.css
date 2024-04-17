@@ -1,4 +1,4 @@
-@media (max-width: 1560px){ 
+
   @keyframes fade-in {
     0% {
       opacity: 0;
@@ -1493,7 +1493,7 @@
     color: var(--color-white);
     font-family: var(--font-creative-thoughts);
   }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1536px) {
     .full-portofolio {
       display: flex;
     }
@@ -1996,5 +1996,3 @@
     color: var(--color-black);
     font-family: var(--font-codec-pro);
   }
-  
-}
